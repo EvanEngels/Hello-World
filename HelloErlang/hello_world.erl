@@ -2,4 +2,4 @@
 -export([hello/0]).
 
 hello() ->
-    io:format("Hello World!\n").
+    io:format("Hello World!~n").
