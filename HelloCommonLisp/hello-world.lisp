@@ -1,0 +1,1 @@
+(format t "Hello World!~%") ; or (princ "Hello World!")
