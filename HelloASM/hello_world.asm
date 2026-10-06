@@ -1,5 +1,5 @@
 section .data
-    msg db "Hello, World!", 0Ah
+    msg db "Hello World!", 0Ah
     msg_len equ $ - msg
 
 section .text
@@ -12,5 +12,5 @@ _start:
     mov rdx, msg_len
     syscall
     mov rax, 60
-    mov rdx, 0
+    mov rdi, 0
     syscall
